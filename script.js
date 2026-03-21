@@ -3,7 +3,7 @@ const canvas = document.getElementById("canvas1");
 const ctx = canvas.getContext("2d");
 const particles = [];
 let hue = 0;
-const colors = ["red", "blue", "cyan"];
+const colors = ["red", "blue", "cyan", "white", "blue"];
 
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
