@@ -48,9 +48,6 @@ class Particle {
     ctx.fill();
   }
 }
-
-console.log(particles);
-
 function handle() {
   for (let i = 0; i < particles.length; i++) {
     if (particles[i].size <= 0.2) {
